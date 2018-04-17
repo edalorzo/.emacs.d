@@ -66,12 +66,8 @@
 (set-frame-font "Fira Code 18" nil t)
 
 ;; sane defaults
+(require 'sane-defaults)
+(require 'key-bindings)
 
-;; Always display line and column numbers
-(setq line-number-mode t)
-(setq column-number-mode t)
-
-;; Don't break lines for me, please
-(setq-default truncate-lines t)
 (put 'narrow-to-region 'disabled nil)
 (put 'narrow-to-page 'disabled nil)
