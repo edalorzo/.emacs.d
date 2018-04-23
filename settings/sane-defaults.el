@@ -8,6 +8,8 @@
 (eval-when-compile
   (require 'cl))
 
+(setq visible-bell nil)
+
 ;; Allow pasting selection outside of Emacs
 (setq x-select-enable-clipboard t)
 

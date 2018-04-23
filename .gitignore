@@ -9,6 +9,7 @@ swank
 emms
 site-lisp/adventur-mode
 *.elc
+*.dat
 .DS_Store
 .yas-compiled-snippets.el
 network-security.data
@@ -23,3 +24,4 @@ bookmarks
 /ido.last
 /recentf
 /eshell/
+/tutorial/

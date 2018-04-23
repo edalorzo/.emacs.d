@@ -10,6 +10,10 @@
 
 (package-initialize)
 
+;; makes sure environment is properly setup for mac users
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
+
 ;; No splash screen please...jeez!
 (setq inhibit-startup-message t)
 
@@ -55,19 +59,21 @@
 (require 'tramp)
 (add-to-list 'tramp-remote-path 'tramp-own-remote-path)
 
-(load "pde-load")
-(defalias 'perl-mode 'cperl-mode)
 
 ;; loads other requirementes here
 ;; this is work in progress
 (require 'better-defaults)
 (require 'magit)
 
-(set-frame-font "Fira Code 18" nil t)
+(set-frame-font "Fira Code" nil t)
+(set-face-attribute 'default nil :height 200)
 
 ;; sane defaults
 (require 'sane-defaults)
 (require 'key-bindings)
+(require 'setup-perl)
+(require 'setup-java)
+(require 'setup-js)
 
 (put 'narrow-to-region 'disabled nil)
 (put 'narrow-to-page 'disabled nil)
