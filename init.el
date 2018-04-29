@@ -8,10 +8,28 @@
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
-(package-initialize)
+;; Are we on a mac?
+(setq is-mac (equal system-type 'darwin))
 
-;; makes sure environment is properly setup for mac users
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (package-initialize)
+  ;; Defines repositories for dependencies
+  (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
+  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+  (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t))
+
+;; makes sure user-emacs-directory is defined
+(unless (boundp 'user-emacs-directory)
+  (defvar user-emacs-directory
+    (let ((home (getenv "HOME")))
+      (if home (concat home "/.emacs.d") "."))))
+
+;; ;; makes sure environment is properly setup for mac users
+(setenv "SHELL" "/bin/bash")
 (when (memq window-system '(mac ns x))
+  (defvar exec-path-from-shell-variables
+    '("LANG" "LC_CTYPE" "LC_ALL" "PERL5LIB" "PERL_LOCAL_LIB_ROOT" "NVM_DIR"))
   (exec-path-from-shell-initialize))
 
 ;; No splash screen please...jeez!
@@ -47,33 +65,31 @@
 (setq-default save-place t)
 (setq save-place-file (expand-file-name ".places" user-emacs-directory))
 
-;; Defines repositories for dependencies
-
-(add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
-
 (setq shell-file-name "/bin/bash")
 
-
-(require 'tramp)
-(add-to-list 'tramp-remote-path 'tramp-own-remote-path)
-
-
-;; loads other requirementes here
+;; loads other requirements here
 ;; this is work in progress
 (require 'better-defaults)
-(require 'magit)
-
-(set-frame-font "Fira Code" nil t)
-(set-face-attribute 'default nil :height 200)
-
-;; sane defaults
+(require 'appearance)
 (require 'sane-defaults)
 (require 'key-bindings)
-(require 'setup-perl)
-(require 'setup-java)
-(require 'setup-js)
+
+(require 'setup-tramp)
+(when (>= emacs-major-version 24)
+  (require 'magit)
+  (require 'setup-perl)
+  (require 'setup-java)
+  (require 'setup-js))
+
+;; I may need to deal with the case when
+;; a library is not installed e.g.
+;; (when (require 'some-library nil 'noerror)
+;;   do-things)
 
 (put 'narrow-to-region 'disabled nil)
 (put 'narrow-to-page 'disabled nil)
+
+;; starts the emacs server
+(when (>= emacs-major-version 24)
+  (unless (server-running-p)
+    (server-start)))
