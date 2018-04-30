@@ -42,5 +42,9 @@
 ;; Don't be so stingy on the memory, we have lots now. It's the distant future.
 (setq gc-cons-threshold 20000000)
 
+;;abbreviation file
+(setq abbrev-file-name "~/.emacs.d/abbrev_defs.el")
+(setq save-abbrevs 'silently)
+
 (provide 'sane-defaults)
 ;;; sane-defaults.el ends here

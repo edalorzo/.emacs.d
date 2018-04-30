@@ -3,6 +3,9 @@
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 
+;; No splash screen please...jeez!
+(setq inhibit-startup-message t)
+
 ;; Turn off mouse interface early in starup to avoid momentary display
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
@@ -23,17 +26,8 @@
 (unless (boundp 'user-emacs-directory)
   (defvar user-emacs-directory
     (let ((home (getenv "HOME")))
-      (if home (concat home "/.emacs.d") "."))))
-
-;; ;; makes sure environment is properly setup for mac users
-(setenv "SHELL" "/bin/bash")
-(when (memq window-system '(mac ns x))
-  (defvar exec-path-from-shell-variables
-    '("LANG" "LC_CTYPE" "LC_ALL" "PERL5LIB" "PERL_LOCAL_LIB_ROOT" "NVM_DIR"))
-  (exec-path-from-shell-initialize))
-
-;; No splash screen please...jeez!
-(setq inhibit-startup-message t)
+      (if home (concat home "/.emacs.d")
+        (error "Unable to determine user-emacs-directory")))))
 
 ;; Sets some relevant path directories
 (setq site-lisp-dir (expand-file-name "site-lisp" user-emacs-directory))
@@ -73,8 +67,19 @@
 (require 'appearance)
 (require 'sane-defaults)
 (require 'key-bindings)
-
 (require 'setup-tramp)
+
+;; makes sure environment is properly setup for mac users
+(setenv "SHELL" "/bin/bash")
+(when (memq window-system '(mac ns x))
+  (defcustom exec-path-from-shell-variables
+    '("PATH" "MANPATH" "LANG" "LC_CTYPE" "LC_ALL"
+      "PERL5LIB" "PERL_LOCAL_LIB_ROOT" "NVM_DIR" "JAVA_HOME")
+    "List of environment variables which are copied from the shell."
+    :type '(repeat (string :tag "Environment variable"))
+    :group 'exec-path-from-shell)
+  (exec-path-from-shell-initialize))
+
 (when (>= emacs-major-version 24)
   (require 'magit)
   (require 'setup-perl)
