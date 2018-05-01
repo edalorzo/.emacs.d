@@ -35,5 +35,7 @@
                  (cperl-tab-always-indent                    . t)))
   (cperl-set-style "PDE"))
 
+(autoload 'perldb-ui "perldb-ui" "perl debugger" t)
+
 (provide 'setup-perl)
 ;;; setup-perl.el ends here

@@ -26,15 +26,17 @@
      ("#A75B00" . 70)
      ("#F309DF" . 85)
      ("#3C3D37" . 100))))
+ '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(linum-format " %3i ")
  '(magit-diff-use-overlays nil)
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (js2-mode exec-path-from-shell nodejs-repl gradle-mode auto-complete eclim imenus edit-indirect markdown-mode perlcritic sml-mode jbeans-theme dracula-theme cyberpunk-theme monokai-theme magit better-defaults)))
+    (company-emacs-eclim company js2-mode exec-path-from-shell nodejs-repl gradle-mode auto-complete eclim imenus edit-indirect markdown-mode perlcritic sml-mode jbeans-theme dracula-theme cyberpunk-theme monokai-theme magit better-defaults)))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
  '(save-place-mode nil)
+ '(send-mail-function (quote mailclient-send-it))
  '(tool-bar-mode nil)
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
