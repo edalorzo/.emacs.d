@@ -87,6 +87,7 @@
 
 (when (>= emacs-major-version 24)
   (require 'magit)
+  (require 'setup-magit)
   (require 'setup-perl)
   (require 'setup-java)
   (require 'setup-js))

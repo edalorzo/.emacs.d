@@ -7,9 +7,7 @@
 (eval-when-compile
   (require 'cl))
 
-;; (global-set-key (kbd "C-x g") 'magit-status)
-;; (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
-(global-magit-file-mode 1)
+(global-magit-file-mode)
 
 (provide 'setup-magit)
 ;;; setup-magit.el ends here
