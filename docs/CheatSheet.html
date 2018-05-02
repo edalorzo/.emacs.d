@@ -1,0 +1,904 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/whhg.css"/>
+    <title>Emacs Cheat Sheet</title>
+    <style>
+      .mono { font-family: "Fira Code", Consolas, Inconsolata, Monaco, "Source Code Pro", Courier, "Courier New", Monospaced, monospace; }
+      .borderless td, .borderless th { border: none; }
+    </style>
+      
+  </head>
+  <body>
+    
+    <div class="container mt-3 mono">
+      
+      <div class="row">
+        <div class="col-xs-11"><h1> Emacs Key Bindings Reference</h1></div>
+      </div>
+
+      <div class="row mt-4">
+
+        <div class="col-md-12">
+
+          <div class="row">
+            <div class="col-sm-12">
+              <h2><i class="fas fa-keyboard"></i>&nbsp;Emacs Key Notations</h2>
+            </div>
+          </div>
+
+          <div class="row mt-4">
+
+            <div class="col-sm-2">
+              <table class="table table-sm table-condensed borderless">
+                <tr>
+                  <td><kbd>C-</kbd></td>
+                  <td><kbd>control</kbd></td>
+                </tr>
+                <tr>
+                  <td><kbd>M-</kbd></td>
+                  <td><kbd>alt</kbd></td>
+                </tr>
+                <tr>
+                  <td><kbd>S-</kbd></td>
+                  <td><kbd>shift</kbd></td>
+                </tr>
+                <tr>
+                  <td><kbd>DEL</kbd></td>
+                  <td><kbd>backspace</kbd></td>
+                </tr>
+                <tr>
+                  <td><kbd>RET</kbd></td>
+                  <td><kbd>return</kbd></td>
+                </tr>
+                <tr>
+                  <td><kbd>SPC</kbd></td>
+                  <td><kbd>spacebar</kbd></td>
+                </tr>
+                <tr>
+                  <td><kbd>ESC</kbd></td>
+                  <td><kbd>escape</kbd></td>
+                </tr>
+                <tr>
+                  <td><kbd>TAB</kbd></td>
+                  <td><kbd>tab</kbd></td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="col-sm-7 offset-md-1 mt-4">
+              <h4><i class="fas fa-lightbulb"></i>&nbsp;Additional Tips</h4>
+              <p>
+                For example <code>C-x s</code> means that we must press and hold <code>Control</code>,
+                then press <code>x</code>, release both keys, then press <code>s</code>.
+              </p>
+              <p>
+                The <code>meta</code> key <a href="https://www.gnu.org/software/emacs/manual/html_node/efaq/No-Meta-key.html">typically means</a>
+                the <code>alt</code> key, but it can also be mapped to the <code>Escape</code> key, e.g. <code>M-x</code> means
+                press and hold <code>Alt</code> and then press <code>x</code>. Alternatively, you can press and release <code>Escape</code>
+                and then press <code>x</code>.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="row mt-4">
+        <div class="col-sm-12">
+
+          
+          <h2><i class="fas fa-question-circle"></i>&nbsp;Help</h2>
+          
+          <table class="table table-striped table-sm">
+            
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Key Binding</th>
+                <th scope="col">Command</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            
+            <tfoot>
+              <tr>
+                <td colspan="3">Alternatively, <kbd>C</kbd>-<kbd>h</kbd> can be replaced by <kbd>f1</kbd></td>
+              </tr>
+            </tfoot>
+            
+            <tbody>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>h</kbd>&nbsp;<kbd>RET</kbd></td>
+                <td>view-order-manuals</td>
+                <td>Enter the online help system</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>h</kbd>&nbsp;<kbd>a</kbd></td>
+                <td>apropos-command</td>
+                <td>Searches help for commands matching a given name</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>h</kbd>&nbsp;<kbd>b</kbd></td>
+                <td>describe-bindings</td>
+                <td>Describe all key bindings</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>h</kbd>&nbsp;<kbd>f</kbd></td>
+                <td>describe-function</td>
+                <td>Describes a function</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>h</kbd>&nbsp;<kbd>k</kbd></td>
+                <td>describe-key</td>
+                <td>Describes a key combination</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>h</kbd>&nbsp;<kbd>m</kbd></td>
+                <td>describe-mode</td>
+                <td>Describes the current buffer major mode</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>h</kbd>&nbsp;<kbd>p</kbd></td>
+                <td>finder-by-keyword</td>
+                <td>Displays available Emacs packages based on keyword</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>h</kbd>&nbsp;<kbd>t</kbd></td>
+                <td>help-with-tutorial</td>
+                <td>Help with tutorial</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>h</kbd>&nbsp;<kbd>v</kbd></td>
+                <td>describe-variable</td>
+                <td>Describes a variable</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>h</kbd>&nbsp;<kbd>w</kbd></td>
+                <td>where-is</td>
+                <td>Describes the key bound to a command</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>h</kbd>&nbsp;<kbd>4</kbd>&nbsp;<kbd>i</kbd></td>
+                <td>info-other-window</td>
+                <td>Shows help in another window</td>
+              </tr>
+            </tbody>
+            
+          </table>
+          
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-sm-12">
+          <h2><i class="fas fa-paragraph"></i>&nbsp;Navigation</h2>
+          <table class="table table-striped table-sm">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Key Binding</th>
+                <th scope="col">Command</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>b</kbd></td>
+                <td>backward-char</td>
+                <td>Moves backward one character</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>f</kbd></td>
+                <td>forward-char</td>
+                <td>Moves forward one character</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>p</kbd></td>
+                <td>previous-line</td>
+                <td>Moves point to the previous line</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>n</kbd></td>
+                <td>next-line</td>
+                <td>Moves point to the next line</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>a</kbd></td>
+                <td>move-beginning-of-line</td>
+                <td>Moves point to the beginning one current line</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>e</kbd></td>
+                <td>move-end-of-line</td>
+                <td>Moves point to the end of current line</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>[</kbd></td>
+                <td>backward-page</td>
+                <td>Moves poit backward to the page boundary</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>]</kbd></td>
+                <td>forward-page</td>
+                <td>Moves poit forward to the page boundary</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>b</kbd></td>
+                <td>backward-word</td>
+                <td>Moves the point backward one word</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>f</kbd></td>
+                <td>forward-word</td>
+                <td>Moves the point forward one word</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>a</kbd></td>
+                <td>backward-sentence</td>
+                <td>Moves the point backward one sentence</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>e</kbd></td>
+                <td>forward-sentence</td>
+                <td>Moves the point forward one sentence</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>{</kbd></td>
+                <td>backward-paragraph</td>
+                <td>Moves the point backward one paragraph</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>}</kbd></td>
+                <td>forward-paragraph</td>
+                <td>Moves the point forward one paragraph</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>&larr;</kbd></td>
+                <td>backward-sexp</td>
+                <td>Moves the point backward one balanced expression</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>&rarr;</kbd></td>
+                <td>forward-sexp</td>
+                <td>Moves the point forward one balanced expression</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>a</kbd></td>
+                <td>beginning-of-defun</td>
+                <td>Moves point to the beginning of a function</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>e</kbd></td>
+                <td>end-of-defun</td>
+                <td>Moves the point the end of a function</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>&lt;</kbd></td>
+                <td>beginning-of-buffer</td>
+                <td>Moves point to the beginning of buffer</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>&gt;</kbd></td>
+                <td>end-of-buffer</td>
+                <td>Moves the point to the end of buffer</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>v</kbd></td>
+                <td>scroll-up-command</td>
+                <td>Scrolls up in the current buffer</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>c</kbd></td>
+                <td>scroll-down-command</td>
+                <td>Scrolls down in the current buffer</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>l</kbd></td>
+                <td>recenter</td>
+                <td>Toggles placing point in screen in the top, middle and bottom of window</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>g</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd></td>
+                <td>goto-line</td>
+                <td>Takes the point to the given line in the buffer</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>g</kbd>&nbsp;<kbd>c</kbd></td>
+                <td>goto-char</td>
+                <td>Moves point to the next occurrence of the given char</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div class="row mt-4">
+        <div class="col-sm-12">
+          <h2><i class="fas fa-file-code"></i>&nbsp;Files</h2>
+          <table class="table table-striped table-sm">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Key Binding</th>
+                <th scope="col">Command</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>i</kbd></td>
+                <td>insert-file</td>
+                <td>Inserts contents of another file in current buffer</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>s</kbd></td>
+                <td>save-some-buffers</td>
+                <td>Save changes in all modified buffers</td>
+              </tr>
+              
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>C</kbd>-<kbd>b</kbd></td>
+                <td>ibuffer</td>
+                <td>Lists open buffers</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>C</kbd>-<kbd>c</kbd></td>
+                <td>save-buffers-kill-terminal</td>
+                <td>Prompts to save pending changes in changed buffers and exits Emacs</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>C</kbd>-<kbd>f</kbd></td>
+                <td>find-file</td>
+                <td>Opens a file in the current buffer</td>
+              </tr>
+              
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>C</kbd>-<kbd>r</kbd></td>
+                <td>find-file-read-only</td>
+                <td>Opens a file in read-only mode in current buffer</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>C</kbd>-<kbd>s</kbd></td>
+                <td>save-buffer</td>
+                <td>Saves current buffer to disk</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>C</kbd>-<kbd>q</kbd></td>
+                <td>read-only-mode</td>
+                <td>Toggles read-only mode for the current buffer</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>C</kbd>-<kbd>v</kbd></td>
+                <td>find-alternative-file</td>
+                <td>Opens an alternative file in the current buffer</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>C</kbd>-<kbd>w</kbd></td>
+                <td>write-file</td>
+                <td>Save as... current buffer</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+       </div>
+
+       <div class="row mt-4">
+
+         <div class="col-sm-12">
+
+          <h2><i class="fas fa-columns"></i>&nbsp;Windows</h2>
+
+          <table class="table table-striped table-sm">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Key Binding</th>
+                <th scope="col">Command</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <!--C-x ? -->
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>o</kbd></td>
+                <td>other-window</td>
+                <td>Moves focus to the next window</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>k</kbd></td>
+                <td>kill-buffer</td>
+                <td>Closes the current buffer</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>z</kbd></td>
+                <td>repeat</td>
+                <td>Repeats the last command</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>0</kbd></td>
+                <td>delete-window</td>
+                <td>Deletes the currently selected window</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>1</kbd></td>
+                <td>delete-other-windows</td>
+                <td>Closes other windows but this one</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>2</kbd></td>
+                <td>split-window-vertically</td>
+                <td>Splits current window in two vertical slices</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>3</kbd></td>
+                <td>split-window-horizontally</td>
+                <td>Splits current window side by side</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>{</kbd></td>
+                <td>shrink-window-horizontally</td>
+                <td>Makes the current window narrower</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>}</kbd></td>
+                <td>enlarge-window-horizontally</td>
+                <td>Makes the current window wider</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>^</kbd></td>
+                <td>enlarge-window</td>
+                <td>Makes the current window taller</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>+</kbd></td>
+                <td>balance-windows</td>
+                <td>Resets windows sizes</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>&rarr;</kbd></td>
+                <td>next-buffer</td>
+                <td>Opens the next buffer in the current window</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>&larr;</kbd></td>
+                <td>previous-buffer</td>
+                <td>Opens the previous buffer in the current window</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>C</kbd>&nbsp;<kbd>v</kbd></td>
+                <td>scroll-other-window</td>
+                <td>Scrolls down in the adjacent window</td>
+              </tr>
+              
+              <!--C-x 4 ? -->
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>4</kbd>&nbsp;<kbd>b</kbd></td>
+                <td>switch-to-buffer-other-window</td>
+                <td>Opens an existing buffer in another window</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>4</kbd>&nbsp;<kbd>c</kbd></td>
+                <td>clone-indirect-buffer-other-window</td>
+                <td>Clones the current buffer in another window</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>4</kbd>&nbsp;<kbd>d</kbd></td>
+                <td>dired-other-window</td>
+                <td>Opens dire in another window</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>4</kbd>&nbsp;<kbd>f</kbd></td>
+                <td>find-file-other-window</td>
+                <td>Opens a file in another window</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>4</kbd>&nbsp;<kbd>r</kbd></td>
+                <td>find-file-read-only-other-window</td>
+                <td>Edit file in read-only mode in another window</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>4</kbd>&nbsp;<kbd>0</kbd></td>
+                <td>kill-buffer-and-window</td>
+                <td>Closes the file and the current window</td>
+              </tr>
+              
+              <!-- C-x 4 C-?-->
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>4</kbd>&nbsp;<kbd>C</kbd>-<kbd>c</kbd></td>
+                <td>find-file-other-window</td>
+                <td>Opens a file in a new window</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>4</kbd>&nbsp;<kbd>C</kbd>-<kbd>o</kbd></td>
+                <td>display-buffer</td>
+                <td>Displays an already opened buffer in another window</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+       </div>
+
+       <div class="row mt-4">
+         <div class="col-md-12">
+
+           <h2><i class="fas fa-desktop"></i>&nbsp;Frames</h2>
+
+          <table class="table table-striped table-sm">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Key Binding</th>
+                <th scope="col">Command</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <!--C-x 5 ? -->
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>5</kbd>&nbsp;<kbd>b</kbd></td>
+                <td>switch-to-buffer-other-frame</td>
+                <td>Selects a buffer to switch to, in another frame</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>5</kbd>&nbsp;<kbd>d</kbd></td>
+                <td>dired-other-frame</td>
+                <td>Opens dired in another frame</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>5</kbd>&nbsp;<kbd>f</kbd></td>
+                <td>find-file-other-frame</td>
+                <td>Opens a file in new in another frame</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>5</kbd>&nbsp;<kbd>o</kbd></td>
+                <td>other-frame</td>
+                <td>Cycles between frames and makes them active</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>5</kbd>&nbsp;<kbd>r</kbd></td>
+                <td>find-file-read-only-other-frame</td>
+                <td>Opens a file in read-only mode in another frame</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>5</kbd>&nbsp;<kbd>0</kbd></td>
+                <td>delete-frame</td>
+                <td>Closes the active frame</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>5</kbd>&nbsp;<kbd>2</kbd></td>
+                <td>make-frame</td>
+                <td>Creates a new frame</td>
+              </tr>
+            </tbody>
+          </table>
+         
+         </div>
+       </div>
+
+       <div class="row mt-4">
+         <div class="col-md-12">
+           <h2><i class="fas fa-list-alt"></i>&nbsp;Buffer List</h2>
+           <p>
+             We open the buffer list window by pressing <kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>C</kbd>-<kbd>b</kbd>
+             and once there we can use the following keystrokes:
+           </p>
+           <table class="table table-striped table-sm">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Keystroke</th>
+                <th scope="col">Action</th>
+                <th scope="col">Occurs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><kbd>d</kbd></td>
+                <td>Marks buffer for deletion</td>
+                <td>When you press <kbd>x</kbd></td>
+              </tr>
+              <tr>
+                <td><kbd>f</kbd></td>
+                <td>Displayes selected buffer in current window</td>
+                <td>Immediately</td>
+              </tr>
+              <tr>
+                <td><kbd>m</kbd></td>
+                <td>Marks buffer to be displayed in another window</td>
+                <td>When you press <kbd>v</kdb></td>
+              </tr>
+              <tr>
+                <td><kbd>n</kbd></td>
+                <td>Moves to the next buffer in the list (i.e., down one line).</td>
+                <td>Immediately</td>
+              </tr>
+              <tr>
+                <td><kbd>p</kbd></td>
+                <td>Moves to the previous buffer in the list (i.e., up one line).</td>
+                <td>Immediately</td>
+              </tr>
+              <tr>
+                <td><kbd>q</kbd></td>
+                <td>Quits buffer list</td>
+                <td>Immediately</td>
+              </tr>
+              <tr>
+                <td><kbd>s</kbd></td>
+                <td>Saves the selected buffer</td>
+                <td>Immediately</td>
+              </tr>
+              <tr>
+                <td><kbd>u</kbd></td>
+                <td>Unmarks the selected buffer</td>
+                <td>Immediately</td>
+              </tr>
+              <tr>
+                <td><kbd>v</kbd></td>
+                <td>Displayed marked buffers</td>
+                <td>Immediately</td>
+              </tr>
+              <tr>
+                <td><kbd>x</kbd></td>
+                <td>Execute commands on marked buffers</td>
+                <td>Immediately</td>
+              </tr>
+              <tr>
+                <td><kbd>%</kbd></td>
+                <td>Toggles read-only mode for the selected buffer</td>
+                <td>Immediately</td>
+              </tr>
+              <tr>
+                <td><kbd>~</kbd></td>
+                <td>Marks the buffer as modified and do not save changes yet</td>
+                <td>Immediately</td>
+              </tr>
+              <tr>
+                <td><kbd>1</kbd></td>
+                <td>Displays buffer in full screen</td>
+                <td>Immediately</td>
+              </tr>
+              <tr>
+                <td><kbd>2</kbd></td>
+                <td>Displays buffer in next horizontal window</td>
+                <td>Immediately</td>
+              </tr>
+            </tbody>
+           </table>
+         </div>
+       </div>
+
+       <div class="row mt-4">
+         <div class="col-sm-12">
+           <h2><i class="fas fa-code-branch"></i>&nbsp;Magit Mode</h2>
+           <table class="table table-striped table-sm">
+             <thead class="thead-dark">
+               <tr>
+                 <th scope="col">Key Binding</th>
+                 <th scope="col">Command</th>
+                 <th scope="col">Description</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd></td>
+                 <td>magit-file-popup</td>
+                 <td>Shows magit status buffer</td>
+               </tr>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd>&nbsp;<kbd>s</kbd></td>
+                 <td>magit-stage-file</td>
+                 <td>Stage all changes from the current file</td>
+               </tr>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd>&nbsp;<kbd>u</kbd></td>
+                 <td>magit-unstage-file</td>
+                 <td>Unstage all changes from the current file</td>
+               </tr>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd>&nbsp;<kbd>c</kbd></td>
+                 <td>magit-commit-popup</td>
+                 <td>Shows maggit commit buffer for the currently staged changes</td>
+               </tr>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd>&nbsp;<kbd>D</kbd></td>
+                 <td>magit-diff-buffer-file-popup</td>
+                 <td>Shows diff buffer for the current file</td>
+               </tr>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd>&nbsp;<kbd>d</kbd></td>
+                 <td>magit-diff-buffer-file</td>
+                 <td>Shows the diff for the current file</td>
+               </tr>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd>&nbsp;<kbd>L</kbd></td>
+                 <td>magit-log-buffer-file-popup</td>
+                 <td>Shows a popup with the log entries for the current file</td>
+               </tr>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd>&nbsp;<kbd>l</kbd></td>
+                 <td>magit-log-buffer-file</td>
+                 <td>Shows the log for the current file in the buffer</td>
+               </tr>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd>&nbsp;<kbd>b</kbd></td>
+                 <td>magit-blame-popup</td>
+                 <td>Shows blame information for current file</td>
+               </tr>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd>&nbsp;<kbd>p</kbd></td>
+                 <td>magit-blob-previous</td>
+                 <td>Visit the previous blob which modified the current file.</td>
+               </tr>
+             </tbody>
+           </table>
+         </div>
+       </div>
+
+       <div class="row mt-4">
+         <div class="col-sm-12">
+           <h2><i class="icon-perl-camel"></i>&nbsp;PDE/CPerl Mode</h2>
+           <table class="table table-striped table-sm">
+             <thead class="thead-dark">
+               <tr>
+                 <th scope="col">Key Binding</th>
+                 <th scope="col">Command</th>
+                 <th scope="col">Description</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>M</kbd>&nbsp;<kbd>\</kbd></td>
+                 <td>indent-region</td>
+                 <td>Indents selected region</td>
+               </tr>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>M</kbd>&nbsp;<kbd>=</kbd></td>
+                 <td>pde-indent-dwim</td>
+                 <td>Indents region between parenthesis</td>
+               </tr>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>;</kbd></td>
+                 <td>comment-dwim</td>
+                 <td>Comments line or region</td>
+               </tr>
+               <tr>
+                 <td><kbd>M</kbd>-<kbd>/</kbd></td>
+                 <td>dabbrev-expand</td>
+                 <td>Expands previous word "dynamically"</td>
+               </tr>
+               <tr>
+                 <td><kbd>M</kbd>-<kbd>;</kbd></td>
+                 <td>hippie-expand</td>
+                 <td>Tries to expand text before point, using multiple methods</td>
+               </tr>
+               <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>f</kbd></td>
+                 <td>comint-dynamic-complete</td>
+                 <td>Performs completion on the text around point.</td>
+               </tr>
+               <tr>
+                 <td><kbd>M</kbd>-<kbd>'</kbd></td>
+                 <td>just-one-space</td>
+                 <td>Deletes all spaces and tabs around point</td>
+               </tr>
+               <tr>
+                 <td><kbd>M</kbd>-<kbd>\</kbd></td>
+                 <td>delete-horizontal-space</td>
+                 <td>Deletes all spaces and tabs around point.</td>
+               </tr>
+               <tr>
+                <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>a</kbd></td>
+                <td>beginning-of-defun</td>
+                <td>Moves point to the beginning of a function</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>e</kbd></td>
+                <td>end-of-defun</td>
+                <td>Moves the point the end of a function</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>&larr;</kbd></td>
+                <td>backward-sexp</td>
+                <td>Moves the point backward one balanced expression</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>&rarr;</kbd></td>
+                <td>forward-sexp</td>
+                <td>Moves the point forward one balanced expression</td>
+              </tr>
+              <tr>
+                <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>u</kbd></td>
+                <td>backward-up-list</td>
+                <td>Moves backward out of one level of parentheses</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>{</kbd></td>
+                <td>backward-paragraph</td>
+                <td>Moves the point backward one paragraph</td>
+              </tr>
+              <tr>
+                <td><kbd>M</kbd>-<kbd>}</kbd></td>
+                <td>forward-paragraph</td>
+                <td>Moves the point forward one paragraph</td>
+              </tr>
+              <tr>
+                 <td><kbd>M</kbd>-<kbd>h</kbd></td>
+                 <td>mark-paragraph</td>
+                 <td>Puts point at beginning of this paragraph, mark at end</td>
+              </tr>
+              <tr>
+                 <td><kbd>C</kbd>-<kbd>M</kbd>-<kbd>h</kbd></td>
+                 <td>mark-defun</td>
+                 <td>Puts mark at end of this defun, point at beginning</td>
+              </tr>
+              <tr>
+                 <td><kbd>C</kbd>-<kbd>x</kbd>-<kbd>h</kbd></td>
+                 <td>mark-whole-buffer</td>
+                 <td>Puts point at beginning and mark at end of buffer</td>
+              </tr>
+              <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>s</kbd></td>
+                 <td>compile-dwim-compile</td>
+                 <td>Compiles current buffer using perl command</td>
+              </tr>
+              <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>r</kbd></td>
+                 <td>compile-dwim-run</td>
+                 <td>Runs current buffer using perl command</td>
+              </tr>
+              <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>j</kbd></td>
+                 <td>ffap</td>
+                 <td>Finds a file guessing its name from text around point</td>
+              </tr>
+              <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>i</kbd></td>
+                 <td>imenu</td>
+                 <td>Jumps to a place in the buffer chosen using a buffer menu</td>
+              </tr>
+              <tr>
+                 <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp<kbd>h</kbd></td>
+                 <td>help-dwim</td>
+                 <td>Shows help info for a given name</td>
+              </tr>
+              
+             </tbody>
+           </table>
+         </div>
+       </div>
+              
+       
+       <div class="row mt-4">
+        <div class="col-sm-12">
+          <h2>Further Reference</h2>
+        </div>
+        <ul>
+          <li><a href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf" target="_blank">GNU Emacs Reference Card</a></li>
+          <li><a href="http://sachachua.com/blog/wp-content/uploads/2013/05/How-to-Learn-Emacs-v2-Large.png" target="_blank">Sacha Chua's How to Learn Emacs</a></li>
+          <li><a href="http://pages.sachachua.com/.emacs.d/" target="_blank">Sacha Chua's Emacs configuration</a></li>
+        </ul>
+       </div>
+       
+      
+    </div>
+
+      <!--Footer-->
+      <footer class="page-footer font-small blue pt-4 mt-4">
+        <!--Copyright-->
+        <div class="footer-copyright py-3 text-center">By <a href="mailto:edwin@dalorzo.com">Edwin Dalorzo</a></div>
+        <!--/.Copyright-->
+
+      </footer>
+      <!--/.Footer-->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>

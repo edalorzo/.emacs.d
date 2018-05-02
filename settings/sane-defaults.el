@@ -13,6 +13,9 @@
 ;; Allow pasting selection outside of Emacs
 (setq x-select-enable-clipboard t)
 
+;; Overwrites selected text
+(delete-selection-mode 1)
+
 ;; Auto refresh buffers
 (global-auto-revert-mode 1)
 ;; Also auto refresh dired, but be quiet about it
