@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/whhg.css"/>
-    <title>Emacs Cheat Sheet</title>
+    <title>Emacs Key Bindings Reference</title>
     <style>
       .mono { font-family: "Fira Code", Consolas, Inconsolata, Monaco, "Source Code Pro", Courier, "Courier New", Monospaced, monospace; }
       .borderless td, .borderless th { border: none; }
@@ -18,7 +18,7 @@
     <div class="container mt-3 mono">
       
       <div class="row">
-        <div class="col-xs-11"><h1> Emacs Key Bindings Reference</h1></div>
+        <div class="col-xs-11"><h1><i class="icon-deathstarbulding"></i>&nbsp;Emacs Key Bindings Reference</h1></div>
       </div>
 
       <div class="row mt-4">
@@ -683,9 +683,14 @@
              </thead>
              <tbody>
                <tr>
+                 <td><kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>g</kbd></td>
+                 <td>magit-status</td>
+                 <td>Shows magit status buffer</td>
+               </tr>
+               <tr>
                  <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd></td>
                  <td>magit-file-popup</td>
-                 <td>Shows magit status buffer</td>
+                 <td>Shows magit buffer command</td>
                </tr>
                <tr>
                  <td><kbd>C</kbd>-<kbd>c</kbd>&nbsp;<kbd>M</kbd>-<kbd>g</kbd>&nbsp;<kbd>s</kbd></td>
@@ -734,6 +739,63 @@
                </tr>
              </tbody>
            </table>
+
+           <h2><i class="icon-projectmerge"></i>&nbsp;Magit Status</h2>
+           <p>
+             Once you we reach the magit status buffer (<kbd>C</kbd>-<kbd>x</kbd>&nbsp;<kbd>g</kbd>), we can use
+             the following keystrokes in that buffer:
+           </p>
+           <table class="table table-striped table-sm">
+             <thead class="thead-dark">
+               <tr>
+                 <th scope="col">Keystroke</th>
+                 <th scope="col">Action</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td><kbd>p</kbd></td>
+                 <td>Moves to previous section</td>
+               </tr>
+               <tr>
+                 <td><kbd>n</kbd></td>
+                 <td>Moves to next section</td>
+               </tr>
+               <tr>
+                 <td><kbd>s</kbd></td>
+                 <td>Stages selected unstaged file</td>
+               </tr>
+               <tr>
+                 <td><kbd>u</kbd></td>
+                 <td>Unstages selected staged file</td>
+               </tr>
+               <tr>
+                 <td><kbd>d</kbd></td>
+                 <td>Shows a diff of the changes in a given file</td>
+               </tr>
+               <tr>
+                 <td><kbd>TAB</kbd></td>
+                 <td>Expands/Collabpses a section</td>
+               </tr>
+               <tr>
+                 <td><kbd>c</kbd></td>
+                 <td>Commits stage changes</td>
+               </tr>
+               <tr>
+                 <td><kbd>P</kbd></td>
+                 <td>Pushes committed changes upstream</td>
+               </tr>
+               <tr>
+                 <td><kbd>h</kbd></td>
+                 <td>Shows a list of other magit popups</td>
+               </tr>
+               <tr>
+                 <td><kbd>q</kbd></td>
+                 <td>Closes magit status buffer</td>
+               </tr>
+             </tbody>
+           </table>
+           
          </div>
        </div>
 
@@ -765,12 +827,12 @@
                  <td>Comments line or region</td>
                </tr>
                <tr>
-                 <td><kbd>M</kbd>-<kbd>/</kbd></td>
+                 <td><kbd>M</kbd>-<kbd>;</kbd></td>
                  <td>dabbrev-expand</td>
                  <td>Expands previous word "dynamically"</td>
                </tr>
                <tr>
-                 <td><kbd>M</kbd>-<kbd>;</kbd></td>
+                 <td><kbd>M</kbd>-<kbd>/</kbd></td>
                  <td>hippie-expand</td>
                  <td>Tries to expand text before point, using multiple methods</td>
                </tr>
@@ -869,7 +931,28 @@
            </table>
          </div>
        </div>
-              
+
+       <div class="row mt-4">
+         <div class="col-sm-12">
+           <h2><i class="icon-java"></i>&nbsp;Java/Eclim Mode</h2>
+           <table class="table table-striped table-sm">
+             <thead class="thead-dark">
+               <tr>
+                 <th scope="col">Key Binding</th>
+                 <th scope="col">Command</th>
+                 <th scope="col">Description</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+               </tr>
+             </tbody>
+           </table>
+         </div>
+       </div>
        
        <div class="row mt-4">
         <div class="col-sm-12">

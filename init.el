@@ -71,7 +71,6 @@
 (require 'better-defaults)
 (require 'appearance)
 (require 'sane-defaults)
-(require 'key-bindings)
 (require 'setup-tramp)
 
 ;; makes sure environment is properly setup for mac users
@@ -91,6 +90,9 @@
   (require 'setup-perl)
   (require 'setup-java)
   (require 'setup-js))
+
+;; run keybdings last, to redefine anything relevant
+(require 'key-bindings)
 
 ;; I may need to deal with the case when
 ;; a library is not installed e.g.

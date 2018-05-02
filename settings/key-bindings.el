@@ -14,5 +14,9 @@
 (global-set-key (kbd "M-<home>") 'beginning-of-buffer)
 (global-set-key (kbd "M-<end>") 'end-of-buffer)
 
+;; fixes a key conflict created by PDE
+(global-set-key (kbd "M-/") 'hippie-expand)
+(global-set-key (kbd "M-;") 'dabbrev-expand)
+
 (provide 'key-bindings)
 ;;; key-bindings.el ends here
