@@ -14,7 +14,7 @@
 
 (defun my-java-mode-hook ()
   (eclim-mode t)
-  (global-company-mode t)
+  (company-mode t)
   (company-emacs-eclim-setup))
 
 (add-hook 'java-mode-hook 'my-java-mode-hook)

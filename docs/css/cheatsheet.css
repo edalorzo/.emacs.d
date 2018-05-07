@@ -1,0 +1,16 @@
+
+.mono {
+    font-family: "Fira Code", Consolas, Inconsolata, Monaco, "Source Code Pro", Courier, "Courier New", Monospaced, monospace;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+pre code.hljs {
+    font-family: "Fira Code", Consolas, Inconsolata, Monaco, "Source Code Pro", Courier, "Courier New", Monospaced, monospace;
+}
+
+.btn-link.key-section {
+    color: black;
+}

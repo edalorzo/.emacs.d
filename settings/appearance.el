@@ -8,6 +8,7 @@
 (eval-when-compile
   (require 'cl))
 
+
 (when window-system
   (set-frame-font "Fira Code" nil t)
   (set-face-attribute 'default nil :height 250)

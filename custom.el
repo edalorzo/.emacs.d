@@ -32,7 +32,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (company-emacs-eclim company js2-mode exec-path-from-shell nodejs-repl gradle-mode auto-complete eclim imenus edit-indirect markdown-mode perlcritic sml-mode jbeans-theme dracula-theme cyberpunk-theme monokai-theme magit better-defaults)))
+    (web-mode company-emacs-eclim company js2-mode exec-path-from-shell nodejs-repl gradle-mode auto-complete eclim imenus edit-indirect markdown-mode perlcritic sml-mode jbeans-theme dracula-theme cyberpunk-theme monokai-theme magit better-defaults)))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
  '(save-place-mode nil)
