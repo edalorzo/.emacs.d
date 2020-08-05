@@ -25,8 +25,9 @@
   (package-initialize)
   ;; Defines repositories for dependencies
   (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
-  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-  (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t))
+  (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+  ;; (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+  )
 
 ;; makes sure user-emacs-directory is defined
 (unless (boundp 'user-emacs-directory)
@@ -89,8 +90,9 @@
   (require 'magit)
   (require 'setup-magit)
   (require 'setup-perl)
-  (require 'setup-java)
-  (require 'setup-js))
+  (require 'setup-js)
+  (require 'setup-clojure)
+  (require 'setup-parinfer))
 
 ;; run keybdings last, to redefine anything relevant
 (require 'key-bindings)

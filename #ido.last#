@@ -1,0 +1,314 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/interchange/lib/" . "Vend/")
+ ("/Users/edalorzo/Sandbox/learning/eclimd-workspace/answers/src/" . "answers/")
+ ("/Users/edalorzo/Sandbox/learning/eclimd-workspace/answers/" . "src/")
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/resources/" . "static/")
+ ("/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/interchange/custom/lib/" . "Backcountry/")
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/java/com/dalorzo/" . "emacs/")
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/java/com/" . "dalorzo/")
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/java/" . "com/")
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/" . "java/")
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/" . "main/")
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/" . "src/")
+ ("/Users/edalorzo/Sandbox/transient/spring-demo/src/main/" . "resources/")
+ ("/Users/edalorzo/Sandbox/transient/spring-demo/src/" . "main/")
+ ("/Users/edalorzo/Sandbox/transient/" . "spring-demo/")
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/" . "emacs-master/")
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/src/main/java/com/dalorzo/reactive/" . "demo/")
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/src/main/java/com/dalorzo/" . "reactive/")
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/src/main/java/com/" . "dalorzo/")
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/src/main/java/" . "com/")
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/src/main/" . "java/")
+ ("/Users/edalorzo/.emacs.d/site-lisp/" . "html-fold/")
+ ("/Users/edalorzo/Sandbox/training/reactive-demo/src/main/resources/static/" . "js/")
+ ("/Users/edalorzo/Sandbox/training/reactive-demo/src/main/resources/" . "static/")
+ ("/Users/edalorzo/Sandbox/backcountry/apis/" . "tax-api/")
+ ("/Users/edalorzo/Sandbox/backcountry/libraries/" . "fbe-ldap/")
+ ("/Users/edalorzo/Sandbox/backcountry/applications/interchange/interchange/custom/lib/Backcountry/Admin/Controller/" . "Fulfillment/")
+ ("/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/interchange/custom/lib/Backcountry/Admin/" . "Controller/")
+ ("/Users/edalorzo/Sandbox/training/reactive-demo/src/main/" . "resources/")
+ ("/Users/edalorzo/Sandbox/training/reactive-demo/src/" . "main/")
+ ("/Users/edalorzo/Sandbox/training/reactive-demo/" . "src/")
+ ("/Users/edalorzo/Sandbox/training/" . "reactive-demo/")
+ ("/Users/edalorzo/ClassPath/" . "mappings/")
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/src/com/dalorzo/" . "demo/")
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/src/com/" . "dalorzo/")
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/src/" . "main/")
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/" . "src/")
+ ("/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/liquibase/" . "releases/")
+ ("/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/interchange/" . "lib/")
+ ("/Users/edalorzo/.emacs.d/" . "settings/")
+ ("/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/interchange/custom/lib/Backcountry/Admin/Controller/" . "Fulfillment/")
+ ("/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/interchange/custom/lib/Backcountry/" . "Admin/")
+ ("/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/" . "interchange/")
+ ("/ssh:interch@12.camps.backcountry.com:/var/lib/" . "interchange/")
+ ("/Users/edalorzo/Sandbox/learning/" . "learn-openshift/")
+ ("/Users/edalorzo/Sandbox/backcountry/applications/interchange/interchange/custom/lib/Backcountry/" . "Admin/")
+ ("/Users/edalorzo/Sandbox/backcountry/applications/interchange/interchange/custom/lib/" . "Backcountry/")
+ ("/Users/edalorzo/Sandbox/backcountry/applications/interchange/interchange/custom/" . "lib/")
+ ("/Users/edalorzo/Sandbox/backcountry/applications/interchange/interchange/" . "custom/")
+ ("/Users/edalorzo/Sandbox/backcountry/applications/interchange/" . "interchange/")
+ ("/Users/edalorzo/Sandbox/backcountry/applications/" . "interchange/")
+ ("/Users/edalorzo/Sandbox/backcountry/" . "apis/")
+ ("/Users/edalorzo/Sandbox/" . "transient/")
+ ("/Users/edalorzo/" . "Training Bills/")
+ ("/Users/" . "edalorzo/")
+ ("/" . ".PKInstallSandboxManager-SystemSoftware/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/interchange/lib/Vend/"
+ "/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/interchange/"
+ "/Users/edalorzo/Sandbox/transient/"
+ "/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/"
+ "/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/.ssh/"
+ "/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/liquibase/releases/"
+ "/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/liquibase/"
+ "/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/interchange/custom/lib/Backcountry/"
+ "/Users/edalorzo/Sandbox/backcountry/"
+ "/Users/edalorzo/.emacs.d/settings/"
+ "/Users/edalorzo/Desktop/"
+ "/Users/edalorzo/Sandbox/backcountry/projects/"
+ "/Users/edalorzo/Sandbox/learning/eclimd-workspace/answers/src/answers/"
+ "/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/resources/static/"
+ "/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/java/com/dalorzo/emacs/controllers/"
+ "/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/java/com/dalorzo/emacs/"
+ "/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/"
+ "/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/interchange/custom/lib/Backcountry/Admin/Controller/Fulfillment/"
+ "/Users/edalorzo/.m2/"
+ "/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/resources/templates/"
+ "/Users/edalorzo/.emacs.d/"
+ "/Users/edalorzo/.emacs.d/elpa/"
+ "/Users/edalorzo/.ssh/"
+ "/Users/edalorzo/.emacs.d/docs/"
+ "/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/resources/"
+ "/Users/edalorzo/Sandbox/transient/spring-demo/src/main/resources/"
+ "/Users/edalorzo/Sandbox/transient/spring-demo/"
+ "/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/java/bootwildfly/"
+ "/Users/edalorzo/Sandbox/learning/learn-openshift/nodejs-ex/"
+ "/ssh:interch@12.camps.backcountry.com:/var/lib/interchange/interchange/sbin/"
+ "/ssh:interch@12.camps.backcountry.com:/usr/local/bin/"
+ "/Users/edalorzo/.emacs.d/site-lisp/html-fold/"
+ "/Users/edalorzo/Desktop/CheatSheet/"
+ "/Users/edalorzo/Sandbox/learning/learn-emacs/"
+ "/Users/edalorzo/.emacs.d/site-lisp/better-defaults/"
+ "/Users/edalorzo/.emacs.d/site-lisp/pde/"
+ "/Users/edalorzo/Sandbox/learning/learn-eclim/"
+ "/Users/edalorzo/Sandbox/learning/learn-eclim/src/main/java/com/dalorzo/reactive/demo/"
+ "/Users/edalorzo/Sandbox/learning/learn-eclim/src/main/java/com/dalorzo/reactive/demo/controllers/"
+ "/Users/edalorzo/Sandbox/learning/learn-perl/"
+ "/Users/edalorzo/.emacs.d/site-lisp/pde/templates/"
+ "/Users/edalorzo/"
+ "/Users/edalorzo/Sandbox/training/reactive-demo/src/main/resources/static/js/"
+ "/Users/edalorzo/Sandbox/backcountry/applications/interchange/interchange/custom/lib/Backcountry/Admin/Controller/Fulfillment/"
+ "/Users/edalorzo/Sandbox/backcountry/applications/interchange/interchange/custom/lib/Backcountry/XMLGen/"
+ "/Users/edalorzo/Sandbox/backcountry/apis/tax-api/"
+ "/Users/edalorzo/Sandbox/backcountry/apis/totes-api/"
+ "/Users/edalorzo/Sandbox/backcountry/apis/picking-api/"
+ "/Users/edalorzo/Sandbox/backcountry/apis/order-api/"
+ "/Users/edalorzo/Sandbox/backcountry/apis/locations-api/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "SessionFile.pm"
+ "test.pl"
+ "IntelliJSettings.xml"
+ "sane-defaults.el"
+ "Packing.org"
+ "Picking.org"
+ "Answers.java"
+ "demo.md"
+ "Application.java"
+ "pom.xml"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/edalorzo/Sandbox/transient/" (23386 3965 457576 66000) "src/" "questions/" "either-demo/" "kill-the-dam/" "dto-events/" "progistics/" "Node.class" "cert-demo/" "rabbitmq_java_client_issue_19/" "demo.pl" "issue-report/" "spring-demo/" "demo-java/" ".project" "logs/" "stackoverflow/" "func-prog/" "test.pl" ".classpath" "pld-parser/" "invoke-label-service.sh" "eclipse-workspace/" "crap.pl" "oms-test/" "connectShip-experiment/" "workspace/" "tpp/" "swagger-ui/" "open-ssl/" "connectship-requests/" "rabbitmq-web-stomp-examples/" "cli-colors/" "commons-dbcp/" "FiraCode/" "bin/" "Answers.java" "java-10/" ".DS_Store" "pipe" "Node.java" "wathever.js" "Axon-trader/" "spring-shell/" "../" "./")
+
+ ("/Users/edalorzo/" (23387 14332 303909 70000) ".zlogin" ".httpie/" ".yjp/" ".viminfo" ".bash_history" ".mongorc.js" ".gitconfig" "Downloads/" ".oh-my-zsh/" ".aspnet/" ".ispell_english" ".gem/" ".bash_profile" ".histfile" ".m2/" ".vscode/" ".mono/" ".cyber/" ".pgpass" "Documents/" "ProgisticsProblemStartedAround732.jpg" ".npm/" ".zcompdump" ".zoomus/" ".Trash/" ".zsh-update" ".gradle/" ".ghc/" ".profile" "Applications/" ".dotnet/" ".vimrc" "Movies/" ".ssh/" ".nvmrc" ".sh_history" ".kube/" "Sandbox/" ".datastudio/" "Public/" "Videos/" ".lein/" ".emacs_bsh" "Google Drive/" ".emacs.dplaces" ".bash_sessions/" ".cups/" ".bcsJavaConfig/" ".android/" ".node_repl_history" ".emacs.d/" ".IdentityService/" ".oracle_jre_usage/" ".erlang.cookie" ".lesshst" ".mkshrc" ".sdkman/" "ProgisticsReportsSQLErrors.jpg" "eclipse-workspace/" "Library/" "Desktop/" ".rvm/" ".p2/" ".zsh_history" ".cpan/" "Training Bills/" ".nuget/" ".jmc/" ".bundle/" ".nvm/" ".forever/" "Pictures/" ".psql_history" ".local/" ".templateengine/" "ProgisticsPopUpSQLError.jpg" ".xmllint_history" ".ServiceHub/" ".zshrc" ".zshrc.pre-oh-my-zsh" ".bashrc" ".ApacheDirectoryStudio/" ".subversion/" ".netrc" ".perl_history" ".tooling/" ".lazybones/" ".wget-hsts" ".CFUserTextEncoding" ".eclim/" "workbench.xmi" ".gerritcodereview/" ".zshrc~" ".gnupg/" ".dbvis/" ".DS_Store" ".orderapi/" ".vim/" "Tools/" "perl5/" ".node-gyp/" ".install4j" "ClassPath/" ".gnupg_pre_2.1/" ".zcompdump-mbp-edalorzo-5.4.2" ".docker/" ".java/" "Music/" ".config/" ".eclipse/" ".emacs_SHELLNAME" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/libraries/fbe-auth/" (23267 48667 310373 571000) "src/" ".git/" "package.json" ".gitignore" "README.md" "bower.json" ".jshintrc" "example/" "dist/" "gjslint.ini" "Gruntfile.js" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/libraries/fbe-ldap/" (23267 48793 123002 204000) ".git/" "lib/" "package.json" ".gitignore" "README.md" ".jshintrc" "gitlabUpdateHookCopy.rb" "test/" "gjslint.ini" "Gruntfile.js" "../" "./")
+
+ ("/Users/edalorzo/Desktop/" (23294 55561 750623 123000) "CheatSheet/" "volere-template.pdf" "SaveMyDay.java" "TeachLead.md" "ConnectShip-Path.txt" "Packing.texi" "State Pattern.zip" "questions.sql" "FMT-ENE02.pdf" "Screen Shot 2018-05-17 at 9.19.08 AM.png" "old-settings.xml" "banded-shipping-improves.png" "PackingTestCases.org_archive" "Packing Architecture Overview.png" "Packing Architecture Overview.jpg" "picking.txt" "Recibo Pago US-VISA.pdf" "State Pattern.pptx" "One-on-Ones Notes" "EmacsConfig/" "ConnectShipDTD.zip" "Perfect Pick Architecture Overview.jpg" "jaxb-2_0-fr-spec.pdf" "Emacs Cheat Sheet.pdf" "Connectship Migration.txt" "FTM-APR01.pdf" "Event-Driven Architectures.pptx" "Screen Shot 2018-05-17 at 11.09.05 AM.png" "Template Method Pattern.pptx" "bcinfra.pem" "Packing.org" "Comprobante de transacción.pdf" "ConnectShipDTD/" "PackingTestCases.org" "id_rsa.pub" "keyboard-shortcuts-macos.pdf" "Packing.html" "response.xml" "Packing.pdf" "id_rsa" "Packing.tex" "MacOS-Characters.txt" "Stategy Pattern.pptx" "Packing.md" "FFD-Overview.pptx" "Screen Shot 2018-05-14 at 12.55.35 PM.png" ".DS_Store" "Template Method Pattern 2.pptx" "PerfectPick-Retrospective [Autosaved].pptx" "backcountry-logo.png" "INS Solicitud de Beneficios.pdf" "idea.log" "PackingTestCases.html" "Security-Docker-And-More.txt" "Screen Shot 2018-05-09 at 10.59.38 PM.png" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/" (23293 36595 118167 540000) "standards/" "applications/" "guides/" "utils/" "libraries/" "legacy/" "rcas/" "projects/" ".DS_Store" "apis/" "tools/" "documentation/" "personal/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/projects/" (23294 7749 673229 497000) "Picking.org" "Picking.html" "../" "./")
+
+ ("/Users/" (23110 33874 349710 855000) "edalorzo/" "Guest/" "alincler/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/edalorzo/Training Bills/" (23133 15021 928132 52000) "Training 1 - Building Robust Software.pdf" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-emacs/" (23291 19491 54158 6000) "Queries.sql" "rocks-01.js" "eclim.txt" "CheatSheet.txt" "cheatsheet.css" "project.org" "Emacs.java" ".DS_Store" "#rocks-01.js#" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/resources/" (23287 18546 800303 285000) "application.properties" "templates/" "static/" ".DS_Store" "../" "./")
+
+ ("/Users/edalorzo/.emacs.d/" (23291 27844 230882 711000) "abbrev_defs.el" "backups/" "games/" ".git/" "elpa/" "site-lisp/" "network-security.data" ".gitignore" "bookmarks" "init.el" "url/" "auto-save-list/" ".gitmodules" ".places" "docs/" "SessionDesktop.el" "custom.el" "tramp" "ido.last~" "eshell/" ".DS_Store" "tutorial/" "init.el~" "ido.last" "settings/" "ac-comphist.dat" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/resources/templates/" (23287 14464 987113 444000) "emacs/" "articles/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/" (23287 13936 425367 862000) "src/" ".idea/" ".git/" "Procfile" ".project" ".settings/" ".gitignore" "README.md" "system.properties" ".classpath" "emacs-master.iml" "pom.xml" "target/" ".DS_Store" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/java/com/dalorzo/emacs/" (23287 18574 447941 848000) "controllers/" "markdown/" "Application.java" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/java/com/dalorzo/emacs/controllers/" (23288 23018 1406 182000) "ArticlesController.java" "EmacsController.java" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/resources/static/" (23285 56030 484298 597000) "font/" "libs/" "css/" ".DS_Store" "index.html" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/eclimd-workspace/answers/src/answers/" (23286 60370 939902 212000) "Answers.java" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/eclimd-workspace/answers/src/" (23286 57423 349976 907000) "answers/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/eclimd-workspace/answers/" (23286 57404 993531 13000) "src/" ".project" ".settings/" ".classpath" "bin/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-async/" (23262 40768 850487 320000) "example04.js" "moreExamples.js" "example01.js" "#example04.js#" "async06.js" "moreAsync03.js" "async02.js" "async03.js" "moreAsync02.js" "moreAsync05.js" "async04.js" "moreAsync01.js" "async05.js" "continuation01.js" "fruits.txt" "async01.js" "moreAsync04.js" "example02.js" "fruits.json" "client.js" "example03.js" "../" "./")
+
+ ("/Users/edalorzo/.m2/" (23282 65093 506252 480000) "old-settings.xml" "settings.xml" "repository/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/.settings/" (23278 10880 543872 333000) "org.eclipse.core.resources.prefs" "org.eclipse.m2e.core.prefs" "org.eclipse.jdt.core.prefs" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/" (23283 14408 248779 581000) "main/" "test/" ".DS_Store" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/java/" (23278 12541 833915 125000) "com/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/java/com/" (23278 12453 527111 767000) "dalorzo/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/java/com/dalorzo/" (23278 12453 527452 600000) "emacs/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/src/main/java/com/dalorzo/reactive/demo/models/" (23261 29405 741718 439000) "Item.java" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/" (23261 28509 337026 703000) "src/" "mvnw" ".project" ".settings/" ".classpath" "pom.xml" "target/" "mvnw.cmd" "bin/" "workbench.xmi" ".DS_Store" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/transient/spring-demo/" (23279 10063 697821 764000) "src/" ".idea/" "mvnw" ".mvn/" ".gitignore" "pom.xml" "target/" "spring-demo.iml" "mvnw.cmd" "../" "./")
+
+ ("/Users/edalorzo/.emacs.d/settings/" (23279 55255 34782 550000) "setup-magit.el" "setup-tramp.el" "setup-perl.el" "setup-js.el" "appearance.el" "key-bindings.el" "setup-java.el~" "setup-java.el" "sane-defaults.el" "../" "./")
+
+ ("/Users/edalorzo/.emacs.d/elpa/" (23280 43516 546605 585000) "dracula-theme-20180416.652/" "popup-20160709.729/" "gnupg/" "edit-indirect-20170928.430/" "auto-complete-20170124.1845/" "imenus-20170217.47/" "async-20180408.844/" "web-mode-20180424.814/" "company-emacs-eclim-20170104.743/" "js2-mode-20180331.2247/" "nodejs-repl-20170722.443/" "git-commit-20180411.1649/" "ghub-20180414.1654/" "s-20180406.108/" "sml-mode-6.8/" "cyberpunk-theme-20170724.924/" "with-editor-20180414.757/" "perlcritic-1.10/" "sml-mode-6.8.signed" "dash-20180413.30/" "magit-popup-20180329.1302/" "abyss-theme-20170808.645/" "archives/" "yasnippet-20180319.607/" "company-20180424.1456/" "let-alist-1.0.5.signed" "gradle-mode-20150313.1205/" "exec-path-from-shell-20180323.1904/" "let-alist-1.0.5/" "sml-mode-readme.txt" "jbeans-theme-20180309.825/" "eclim-20171113.1754/" "markdown-mode-20180124.138/" "monokai-theme-20180402.221/" "magit-20180416.852/" "../" "./")
+
+ ("/Users/edalorzo/.emacs.d/site-lisp/" (23274 49488 433366 28000) "pde/" ".DS_Store" "better-defaults/" "../" "./")
+
+ ("/Users/edalorzo/.ssh/" (23249 27169 622597 318000) "known_hosts" "upsource" "id_rsa.pub" "id_rsa" "config" "upsource.pub" "known_hosts.old" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/" (23279 9055 354986 61000) "learn-rest/" "func-prog-with-csharp/" "rabbit-experiments/" "learning-coroutines/" "reactor-core/" "learn-heroku/" "snaptech-demo/" "lite-rx-api-hands-on/" "eclimd-workspace/" "event-mangement/" "restful-java-with-jaxrs.md" "db-streaming-server/" "learn-eclim/" "rabbit-server/" "design-patterns/" "oms-events/" "web-clients/" "learn-perl/" "learn-qsharp/" "web-clients-java/" "rest-principles.md" "learn-xml/" "totes-api-cqrs/" "cloud-stream/" "learn-async/" "cqrs-common/" ".DS_Store" "axon/" "dam-controller/" "learn-emacs/" "cms-events/" "rabbit-client/" "grpc-java/" "learn-openshift/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/" (23278 13584 440050 354000) "openshift-quickstarts/" "nodejs-ex/" ".DS_Store" "emacs-master/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/" (23278 13590 120734 597000) "java/" "resources/" ".DS_Store" "../" "./")
+
+ ("/Users/edalorzo/.emacs.d/docs/" (23278 31378 664283 179000) "font/" "CheatSheet.html" "highlight/" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/src/main/java/com/dalorzo/" (23261 45982 0 0) "reactive/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/transient/spring-demo/src/main/resources/" (23278 11970 225844 66000) "application.properties" "templates/" "static/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-xml/" (23259 16925 344238 838000) "first.xml" "archetype-catalog.xml" "document-dtd01.xml" "order01.xml" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/personal/patterns/src/com/demo/patterns/state/" (23239 34509 657822 639000) "TestDrive.java" "v3/" "v2/" "v1/" "../" "./")
+
+ ("/Users/edalorzo/ClassPath/mappings/" (23259 19137 657014 47000) "get-order.json" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/totes-api/" (23276 57076 910173 854000) ".idea/" "integration-test.gradle" "data/" "settings.gradle" "gradlew.bat" ".git/" "service/" "build/" "gradle.properties" "RELEASE_NOTES.md" ".gradle/" "build.gradle" ".gitignore" "gradlew" "common/" "gradle/" "README.md" "controller/" "totes-api.iml" "web/" "activity/" "docker/" "releases/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/applications/interchange/interchange/custom/lib/Backcountry/XMLGen/" (23253 34441 505865 262000) "AddressVerification.pm" "Connectship.pm" "UPS.pm" "#Connectship.pm#" "#AddressVerification.pm#" "ProductTaxonomy.pm" "TransactionalEmail.pm" "ConnectshipConfig.pm" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-perl/" (23277 64049 856138 570000) "exc-chap06.pl" "answers03.pl" "scalars.pl" "demo.pl" ".git/" "friends.txt" "answers02.pl" "explore.pl" "demo.sml" "exc-chp04.pl~" "input.pl" "subroutines.pl~" "README.md" "types-of-vars.pl" "perldb-01.pl" "rounding.pl" "subroutines.pl" "arguments.pl" "fruits.txt" "lists.pl" "#perldb-01.pl#" "exc-chp04.pl" "../" "./")
+
+ ("/Users/edalorzo/Desktop/CheatSheet/" (23274 47767 261784 755000) "IntelliJ.html" "font/" "highlight/" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/nodejs-ex/" (23277 64369 687592 736000) "helm/" "views/" ".git/" "package.json" ".gitignore" "openshift/" "README.md" "tests/" "server.js" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/transient/spring-demo/src/main/" (23229 9647 225849 503000) "java/" "resources/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/transient/spring-demo/src/" (23229 9647 226010 349000) "main/" "test/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/emacs-master/src/main/java/bootwildfly/" (23278 10258 785888 692000) "HelloWildFlyController.java" "Application.java" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-openshift/openshift-quickstarts/" (23278 1828 354313 214000) "tomcat-jdbc/" "datagrid71/" "helloworld-mdb/" ".git/" "kitchensink-mongodb/" "datavirt64/" "kitchensink-managed-ds/" ".gitignore" "todolist/" "README.md" "datavirt/" "tomcat-websocket-chat/" "decisionserver/" "undertow-servlet/" "undertow-jdbc/" "jta-crash-rec-eap6/" "jta-crash-rec-eap7/" "processserver/" "settings.xml" "datagrid/" "../" "./")
+
+ ("/Users/edalorzo/.emacs.d/site-lisp/html-fold/" (23274 49136 511057 350000) "html-fold.el" ".git/" ".gitignore" "README.md" "LICENSE" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/personal/instalaciones/" (23233 49965 68223 568000) ".openshift/" "views/" ".git/" "package.json" ".gitignore" "README.md" "deplist.txt" "node_modules/" "web/" "server.js" "../" "./")
+
+ ("/Users/edalorzo/.emacs.d/docs/css/" (23273 15226 487329 483000) "whhg.css" "../" "./")
+
+ ("/Users/edalorzo/.emacs.d/site-lisp/better-defaults/" (23273 28204 682178 606000) ".git" "README.md" "better-defaults.el" "../" "./")
+
+ ("/Users/edalorzo/.emacs.d/site-lisp/pde/" (23271 13460 85009 158000) "windata.elc" "pde-vars.el" "compile-dwim.el" "pde-abbv.el" "perlcritic.el" "help-dwim.el" "pde-project.elc" "tree-widget/" "tabbar-x.el" "pde.el" "tempo-x.elc" "pde-patch.el" "perlapi.elc" "perltidy.elc" "pde.elc" "doc/" "templates/" "perldoc.el" "pde-util.el" "inf-perl.el" "re-builder-x.elc" "help-dwim.elc" "tree-mode.elc" "perltidy.el" "perlapi.el" "tabbar-x.elc" "perldb-ui.el" "contrib/" "imenu-tree.elc" "pde-abbv.elc" "pde-project.el" "compile-dwim.elc" "re-builder-x.el" "template-simple.el" "tempo-x.el" "pde-util.elc" "tree-mode.el" "pde-loaddefs.el" "perldoc.elc" "imenu-tree.el" "perlcritic.elc" ".DS_Store" "pde-load.el" "tools/" "tags-tree.elc" "template-simple.elc" "windata.el" "inf-perl.elc" "tags-tree.el" "pde-vars.elc" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/src/main/java/com/dalorzo/reactive/demo/controllers/" (23271 59931 791398 317000) "AsyncOrderController.java" "ReactOrderController.java" "SyncOrderController.java" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/learning/learn-eclim/src/main/java/com/dalorzo/reactive/demo/" (23271 59020 37535 668000) "controllers/" "ReactiveDemoApplication.java" "models/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/" (23271 14009 925918 855000) ".idea/" "IntelliJ Cheat Sheet.txt" "github/" "transient/" "training/" "learning/" "backcountry/" ".DS_Store" "personal/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/training/reactive-demo/src/main/resources/static/js/" (23270 27799 342836 775000) "callbackhell.js" "cps.js" "training04.js" "demo04.js" "nonblocking-callback.js" "demo01.js" "demo05.js" "nonblocking-promise.js" "asyncawait.js" "training02.js" "demo02.js" "training06.js" "demo06.js" "uglyhttp.js" "training03.js" "fruits.txt" "demo03.js" "trycatchfinally.js" "promises.js" "train01.js" "nonblocking.js" "../" "./")
+
+ ("/Users/edalorzo/.emacs.d/site-lisp/pde/templates/" (23242 62766 418549 503000) "TEMPLATE.h.tpl" "TEMPLATE.cgi.tpl" "TEMPLATE.html.tpl" "TEMPLATE.texi" "TEMPLATE.el.tpl" "TEMPLATE.pm.tpl" "TEMPLATE.pl.tpl" "TEMPLATE.pod.tpl" "TEMPLATE.t.tpl" "TEMPLATE.c.tpl" "TEMPLATE.texinfo" "TEMPLATE.makefile.tpl" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/applications/interchange/interchange/custom/lib/Backcountry/Admin/Controller/Fulfillment/" (23268 32144 113258 375000) "PackingService.pm" "Connectship.pm" "PushPull.pm" "#PackingService.pm#" "BPCService.pm" "ConveyorService.pm" "PutawayService.pm" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/training/reactive-demo/src/main/resources/static/" (23262 49165 79678 162000) "js/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/training/reactive-demo/" (23267 48276 346876 406000) "src/" ".idea/" "settings.gradle" "gradlew.bat" ".git/" "Orders.jmx" "mappings/" ".gradle/" "curl-format.txt" "build.gradle" "reactive-demo.iml" ".gitignore" "gradlew" "gradle/" "README.md" "out/" "__files/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/applications/interchange/interchange/custom/lib/Backcountry/Controller/" (23043 34222 0 0) "Base.pm" "InstantReview.pm" "QAndA.pm" "SACCollectionDetail.pm" "Demo.pm" "OdatCart.pm" "Product.pm" "InstantReview/" "Sac.pm" "Tribe.pm" "t/" "CL.pm" "Roles/" "SACCollection.pm" "ODAT.pm" "RSS/" "WM.pm" "WMCollection.pm" "ImageInfo.pm" "WMCollectionDetail.pm" "FileStream.pm" "Sku.pm" "RSS.pm" "Cart.pm" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/applications/" (23267 50785 641184 941000) "dam/" "api-proxy/" "wms-manager/" "cvp-server/" "interchange/" "xroads-default-app/" "packsize/" ".DS_Store" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/tax-api/" (23161 51976 7561 702000) "src/" ".idea/" "mongoStart.sh" "settings.gradle" "gradlew.bat" ".git/" "mongoStop.sh" "gradle.properties" "RELEASE_NOTES.md" "exportTICs.txt" "build.gradle" ".gitignore" "gradlew" "gradle/" "README.md" "tax-api.iml" "docker/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/totes-api/docker/" (22996 22133 0 0) "dockerfiles/" "resources/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/totes-api/docker/resources/" (22996 22133 0 0) "api-proxy-certs/" "newrelic/" "tomcat/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/totes-api/docker/resources/tomcat/" (22996 22133 0 0) "conf/" "lib/" "logs/" "jmc/" "bin/" "webapps/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/totes-api/docker/resources/tomcat/conf/" (22996 22133 0 0) "totes-api-server.xml" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/picking-api/docker/" (22996 21851 0 0) "dockerfiles/" "resources/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/picking-api/docker/resources/" (23144 46021 293923 833000) "newrelic/" "tomcat/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/picking-api/docker/resources/tomcat/" (22996 21851 0 0) "conf/" "lib/" "logs/" "jmc/" "bin/" "webapps/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/picking-api/docker/resources/tomcat/conf/" (22996 21851 0 0) "picking-api-server.xml" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/picking-api/" (23144 46145 421586 309000) ".idea/" "integration-test.gradle" "data/" "settings.gradle" ".git/" "service/" "consumer/" "build/" "gradle.properties" "RELEASE_NOTES.md" ".gradle/" "picking-api.iml" "build.gradle" ".gitignore" "gradlew" "gradle/" "README.md" "controller/" "web/" "docker/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/order-api/docker/" (22996 22548 0 0) "dockerfiles/" "resources/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/order-api/docker/resources/" (22996 22548 0 0) "api-proxy-certs/" "newrelic/" "keys/" "rabbit-certs/" "tomcat/" "jre/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/order-api/docker/resources/tomcat/" (22996 22548 0 0) "conf/" "lib/" "logs/" "jmc/" "bin/" "webapps/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/order-api/docker/resources/tomcat/conf/" (22996 22548 0 0) "delta-server.xml" "order-server.xml" "transfer-server.xml" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/order-api/" (23136 58457 924884 615000) ".idea/" "order-delta-publisher/" "order-api.iml" "integration-test.gradle" "data/" "settings.gradle" "gradlew.bat" ".git/" "build/" "gradle.properties" "RELEASE_NOTES.md" ".gradle/" "build.gradle" ".gitignore" "gradlew" "gradle/" "README.md" "business/" "web/" "host/" "docker/" "order-transfer-consumer/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/locations-api/docker/" (22996 22097 0 0) "dockerfiles/" "resources/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/locations-api/docker/resources/" (22996 22097 0 0) "api-proxy-certs/" "newrelic/" "tomcat/" "jre/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/locations-api/docker/resources/tomcat/" (22996 22097 0 0) "conf/" "lib/" "logs/" "jmc/" "bin/" "webapps/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/locations-api/docker/resources/tomcat/conf/" (22996 22097 0 0) "locations-api-server.xml" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/locations-api/" (23081 22419 0 0) ".idea/" "integration-test.gradle" "data/" "settings.gradle" ".git/" "service/" "consumer/" "build/" "gradle.properties" "RELEASE_NOTES.md" ".gradle/" "build.gradle" ".gitignore" "gradlew" "gradle/" "README.md" "locations-api.iml" "controller/" "web/" "docker/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/inventory-api/docker/" (22996 21939 0 0) "dockerfiles/" "resources/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/inventory-api/docker/resources/" (22996 21939 0 0) "api-proxy-certs/" "newrelic/" "rabbit-certs/" "tomcat/" "jre/" "../" "./")
+
+ ("/Users/edalorzo/Sandbox/backcountry/apis/inventory-api/docker/resources/tomcat/" (22996 21939 0 0) "conf/" "lib/" "logs/" "jmc/" "bin/" "webapps/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
